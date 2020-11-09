@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-pug": "^7.0.1",
+    "pug-as-jsx-loader": "^1.0.88"
   }
 }
