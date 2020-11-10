@@ -1,4 +1,4 @@
-##Projeto React de Pokedex Trainee CJR 2020/2
+## Projeto React de Pokedex Trainee CJR 2020/2
 até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
 `WireFrame em breve`
 ## Available Scripts
