@@ -72,6 +72,7 @@ li{
   justify-content: center;
   width: 100px;
   height: 45px;
+  mix-blend-mode: luminosity;
 }
 .login p{
   width: 100%;
