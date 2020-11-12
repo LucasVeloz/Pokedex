@@ -1,8 +1,11 @@
-import HelloWorld from './components/helloworld'
-import './App.css';
+import "./App.css";
+import Header from "./components/header";
 function App() {
   return (
-    <HelloWorld></HelloWorld>
+
+    <div>
+      <Header/>
+    </div>
   );
 }
 
