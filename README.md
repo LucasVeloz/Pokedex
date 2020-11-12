@@ -1,6 +1,8 @@
 ## Projeto React de Pokedex Trainee CJR 2020/2
 até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
-`WireFrame em breve`
+é um projeto responsivo e pensado. Há utilização de técnicas de Design e utilização de UX e UI
+![base que será montada o projeto](./wireframes/wireframe1.jpg)
+`WireFrame em desenvolvimento`
 ## Available Scripts
 
 In the project directory, you can run:
