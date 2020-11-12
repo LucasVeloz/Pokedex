@@ -1,8 +1,15 @@
 ## Projeto React de Pokedex Trainee CJR 2020/2
-até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
-é um projeto responsivo e pensado. Há utilização de técnicas de Design e utilização de UX e UI
+Até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
+
+É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...
+
+E utilização de UX e UI para uma melhor experiência.
+
+
 ![base que será montada o projeto](https://github.com/LucasVeloz/Trabalho-React-CJR/blob/main/public/wireframes/wireframe1.jpg)
 `WireFrame em desenvolvimento`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
