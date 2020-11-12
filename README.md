@@ -3,6 +3,8 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 
 É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...
 
+![Paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](/public/wireframes/paletaDeCor.jpeg)
+
 E utilização de UX e UI para uma melhor experiência.
 
 
