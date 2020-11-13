@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-
-// import "../style/header.stylus";
 const Header = () => {
     return (
 
@@ -10,16 +7,11 @@ const Header = () => {
             </h3>
             <ul>
                 <li>
-                        <button className='register'>Register</button>
-                    {/* <a href="#">
-                        <div className='register'><p>Register</p></div>
-                    </a> */}
+                    <button className='register'>Register</button>
                 </li>
                 <li>
                     <button className='login'>Sign In</button>
-                    {/* <a href="#">
-                        <div className='login'><p>Sign In</p></div>
-                    </a> */}
+                    
                 </li>
             </ul>
         </div>
