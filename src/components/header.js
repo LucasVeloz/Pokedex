@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
         <div>
-            <Register/>
+            {/* <Register/> */}
             <Login/>
             <div className="header">
                 <h3>

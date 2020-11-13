@@ -26,8 +26,14 @@
     box-sizing: border-box;
     border-radius: 100px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+}
+h3 {
+    margin-top: 30px;
+    font-family: 'PokemonHollow';
+    font-size: 2.5em;
 }
 form{
     width: 100%;
@@ -43,7 +49,7 @@ form{
     border-radius: 40px;
     margin-bottom: 4%;
     font-family: 'PokemonSolid';
-    font-size: 3.5em;
+    font-size: 3em;
     text-align: center;
 }
 .btn {
@@ -52,4 +58,11 @@ form{
     border-radius: 40px;
     font-family: 'PokemonSolid';
     font-size: 1em;
+    cursor: pointer;
+}
+a {
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #A7D9C6;
+    cursor: pointer;
 }
