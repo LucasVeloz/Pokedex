@@ -1,4 +1,6 @@
 import "../style/login.css";
+
+
 const Login = props => {
     
     return (
@@ -9,7 +11,7 @@ const Login = props => {
                     <input type="text" className='text'></input>
                     <input type="submit" value="Sign In" className='btn'></input>
                 </form>
-                <a >Primeira vez? Cadastre-se</a>
+                <a className='link'>Primeira vez? Cadastre-se</a>
             </div>
         </div>
     );

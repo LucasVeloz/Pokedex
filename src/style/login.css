@@ -59,7 +59,7 @@ form{
     font-family: 'PokemonSolid';
     font-size: 1em;
 }
-a {
+.link {
     margin-bottom: 20px;
     background-color: transparent;
     color: #A7D9C6;

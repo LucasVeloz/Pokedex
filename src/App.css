@@ -39,6 +39,7 @@ li{
   color: #F2F2F2;
   font-size: 2.5em;
   width: 50%;
+  margin-top: 0;
 }
 .header ul{
   display: flex;

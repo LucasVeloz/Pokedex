@@ -1,12 +1,14 @@
 import Register from './register';
 import Login from './login';
+
+
 const Header = () => {
 
 
     return (
         <div>
             {/* <Register/> */}
-            <Login/>
+            {/* <Login/> */}
             <div className="header">
                 <h3>
                     <a href="/">POKEDEX</a>

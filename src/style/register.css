@@ -60,7 +60,7 @@ form{
     font-size: 1em;
     cursor: pointer;
 }
-a {
+.link {
     margin-bottom: 20px;
     background-color: transparent;
     color: #A7D9C6;

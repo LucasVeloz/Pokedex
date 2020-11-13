@@ -1,4 +1,6 @@
 import "../style/register.css";
+
+
 const Register = props => {
     
     return (
@@ -9,7 +11,7 @@ const Register = props => {
                     <input type="text" className='text'></input>
                     <input type="submit" value="Registrar" className='btn'></input>
                 </form>
-                <a >já tem uma conta?</a>
+                <a className='link'>já tem uma conta?</a>
             </div>
         </div>
     );
