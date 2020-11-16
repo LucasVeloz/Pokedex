@@ -1,9 +1,13 @@
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 import Register from './register';
 import Login from './login';
 
-
 const Header = () => {
-
 
     return (
         <div>
@@ -11,7 +15,9 @@ const Header = () => {
             {/* <Login/> */}
             <div className="header">
                 <h3>
-                    <a href="/">POKEDEX</a>
+                    <Router>
+                        <Link to='/'>POKEDEX</Link>
+                    </Router>
                 </h3>
                 <ul>
                     <li>
