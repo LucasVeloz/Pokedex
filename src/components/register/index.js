@@ -1,4 +1,4 @@
-import "../style/register.css";
+import './styles.css';
 
 
 const Register = props => {

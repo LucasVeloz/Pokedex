@@ -4,9 +4,11 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import Register from './register';
-import Login from './login';
 
+// import Register from './register';
+// import Login from './login';
+
+import './styles.css';
 const Header = () => {
 
     return (

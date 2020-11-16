@@ -1,4 +1,4 @@
-import "../style/login.css";
+import './styles.css';
 
 
 const Login = props => {

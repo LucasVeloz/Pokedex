@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'PokemonSolid';
+    font-weight: lighter;
+    font-size: 1.5em;
+    background-color: #BF343F;
+    
+}
