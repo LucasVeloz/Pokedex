@@ -1,15 +1,15 @@
 @font-face{
     font-family: 'PokemonHollow';
-    src: url('../fonts/pokemon/PokemonHollow.ttf');
-  }
-  @font-face{
+    src: url('../../fonts/pokemon/PokemonHollow.ttf');
+}
+@font-face{
     font-family: 'PokemonSolid';
-    src: url('../fonts/pokemon/PokemonSolid.ttf');
-  }
+    src: url('../../fonts/pokemon/PokemonSolid.ttf');
+}
 
 .overlay{
     width: 100vw;
-    display: flex;
+    display: none;
     height: 100vh;
     position: fixed;
     background: rgba(0, 0, 0, 0.85);

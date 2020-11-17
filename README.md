@@ -3,12 +3,12 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 
 É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...
 
-![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](/public/wireframes/paletaDeCor.jpeg)
+![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
 
 E utilização de UX e UI para uma melhor experiência.
 
 
-![base que será montada o projeto](https://github.com/LucasVeloz/Trabalho-React-CJR/blob/main/public/wireframes/wireframe1.jpg)
+![base que será montada o projeto](./wireframes/Pokedex.png)
 `WireFrame em desenvolvimento`
 
 
