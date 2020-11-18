@@ -6,11 +6,10 @@ import {
     Link
 } from "react-router-dom";
 // import Register from '../register';
-// import Login from './login';
 import './styles.css';
-
+import Login from '../login';
+import Register from '../register';
 const Header = () => {
-
     return (
         <div>
             {/* <Register/> */}
@@ -23,10 +22,12 @@ const Header = () => {
                 </h3>
                 <ul>
                     <li>
-                        <button className='register'>Register</button>
+                        <Register/>
+                        {/* <button className='register'>Register</button> */}
                     </li>
                     <li>
-                        <button className='login'>Sign In</button>
+                        <Login/>
+                        {/* <button className='login'>Sign In</button> */}
                         
                     </li>
                 </ul>

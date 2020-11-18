@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'PokemonHollow';
-    src: url('../fonts/pokemon/PokemonHollow.ttf');
-  }
-  @font-face{
+    src: url('../../fonts/pokemon/PokemonHollow.ttf');
+}
+@font-face{
     font-family: 'PokemonSolid';
-    src: url('../fonts/pokemon/PokemonSolid.ttf');
-  }
+    src: url('../../fonts/pokemon/PokemonSolid.ttf');
+}
 
 .overlay{
     width: 100vw;
@@ -64,4 +64,28 @@ form{
     background-color: transparent;
     color: #A7D9C6;
     cursor: pointer;
+}
+.login {
+    background-color: #F2F2F2;
+    border: 2.5px solid #F2F2F2;
+    border-radius: 20px;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BF1725;
+    font-family:  Roboto;
+    font-weight: bold;
+    font-size: 1.25em;
+    cursor: pointer;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.login:hover, .login:focus{
+    color: #F2F2F2;
+    outline: 0;
+}
+.login:hover {
+    box-shadow: 0 0 40px 40px #BF1725 inset;
 }

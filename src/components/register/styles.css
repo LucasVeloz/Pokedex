@@ -34,6 +34,7 @@ h3 {
     margin-top: 30px;
     font-family: 'PokemonHollow';
     font-size: 2.5em;
+    margin-left: 20px;
 }
 form{
     width: 100%;
@@ -52,7 +53,7 @@ form{
     font-size: 3em;
     text-align: center;
 }
-.btn {
+.btn-register {
     width: 30%;
     height: 20%;
     border-radius: 40px;
@@ -65,4 +66,28 @@ form{
     background-color: transparent;
     color: #A7D9C6;
     cursor: pointer;
+}
+.register{
+    background-color: transparent;
+    border: 2.5px solid #F2F2F2;
+    border-radius: 20px;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    font-family:  Roboto;
+    font-weight: bold;
+    font-size: 1.25em;
+    cursor: pointer;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.register:hover, .register:focus{
+    color: #BF1725;
+    outline: 0;
+}
+.register:hover {
+    box-shadow: 0 0 40px 40px #F2F2F2 inset;
 }

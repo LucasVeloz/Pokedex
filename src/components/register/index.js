@@ -1,4 +1,6 @@
-// import './styles.css';
+import './styles.css';
+import React from 'react';
+import { Modal, Button, render } from 'react-bootstrap';
 // import {
 //     BrowserRouter as Router,
 //     Switch,
@@ -6,73 +8,53 @@
 //     Link
 // } from "react-router-dom";
 
-// const Register = props => {
-    
-//     return (
-//         <div className="overlay">
-//             <div className="modalRegister">
-//                 <h3>Register</h3>
-//                 <form>
-//                     <input type="text" className='text'></input>
-//                     <input type="submit" value="Registrar" className='btn'></input>
-//                 </form>
-//                 <Router>
-//                     <Link to='/login' className='link'>já tem uma conta?</Link>
-//                 </Router>
-//             </div>
-//         </div>
-//     );
-// }
 
-
-
-// export default Register;
-import {Button, render, Modal} from 'react-bootstrap';
-import React from 'react';
-
-function MyVerticallyCenteredModal(props) {
+  function MyVerticallyCenteredModal(props) {
     return (
       <Modal
-        {...props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
       >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Modal heading
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <h4>Centered Modal</h4>
-          <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
-          </p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer>
-      </Modal>
-    );
-  }
-  
-  function App() {
-    const [modalShow, setModalShow] = React.useState(false);
-  
-    return (
-      <>
-        <Button variant="primary" onClick={() => setModalShow(true)}>
-          Launch vertically centered modal
-        </Button>
-  
-        <MyVerticallyCenteredModal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-      </>
-    );
-  }
-  
-  render(<App />);
+      <div className="overlay"></div>
+      <Modal.Header >
+        <Modal.Title id="contained-modal-title-vcenter">
+          <h3>Register</h3>
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <form>
+          <input type="text" className='text'></input>
+          <input type="submit" className='btn-register'></input>
+        </form>
+        {/* <Router>
+            <Link to='/login' className='link'>já tem uma conta?</Link>
+        </Router> */}
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function Register() {
+  const [modalShow, setModalShow] = React.useState(false);
+
+  return (
+    <>
+      <Button className='register' variant="primary" onClick={() => setModalShow(true)}>
+        Register
+      </Button>
+
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    </>
+  );
+}
+
+// render(<Register />);
+export default Register;
