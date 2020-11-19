@@ -13,7 +13,6 @@ export default function Pokemons ({page}) {
             .then((data) => setPokemons(data));
     },[]);
 
-
-    // console.log("oi");
+    // console.log({pokemons});
     return <PokemonsList pokemons={pokemons} />;
 }

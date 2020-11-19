@@ -1,5 +1,5 @@
 export default function List({ pokemons }) {
-    console.log({pokemons});
+    console.log(this);
     return (
         <div>
             {/* {pokemons.map((pokemons) => (
