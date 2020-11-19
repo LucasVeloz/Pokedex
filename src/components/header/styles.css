@@ -5,19 +5,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 .header h3{
-    margin-left: 1%;
+    margin-left: 20px;
     font-family: "PokemonHollow";
     color: #F2F2F2;
     font-size: 2.5em;
-    width: 50%;
+    /* width: 50%; */
     margin-top: 0;
 }
 .aux{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 100%;
 }

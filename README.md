@@ -1,4 +1,6 @@
 ## Projeto React de Pokedex Trainee CJR 2020/2
+
+`Deploy em:` [netlify](https://lveloz.netlify.app/)
 Até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
 
 É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...

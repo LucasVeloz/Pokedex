@@ -18,6 +18,7 @@ code {
 input, textarea, select {
   outline: 0;
 }
-.fade modal show {
+.modal-content {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.95);
 }
