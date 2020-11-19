@@ -16,14 +16,10 @@ const Header = () => {
                     <Link to='/' exact>POKEDEX</Link>
                 </Router>
             </h3>
-            <ul>
-                <li>
+            <div className='aux'>
                     <Register/>
-                </li>
-                <li>
                     <Login/>
-                </li>
-            </ul>
+            </div>
         </div>
     );
 }

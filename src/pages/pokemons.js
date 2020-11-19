@@ -9,7 +9,7 @@ export default function Pokemons ({page}) {
     useEffect( () => {
         axios
             .get("https://pokedex20201.herokuapp.com/pokemons")
-            .then((response) => response.data)
+            .then((response) => response.data.data)
             .then((data) => setPokemons(data));
     },[]);
 

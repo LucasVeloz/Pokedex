@@ -15,10 +15,9 @@
     width: 50%;
     margin-top: 0;
 }
-.header ul{
+.header .aux{
     display: flex;
     justify-content: space-between;
-    width: 15%;
     align-items: center;
     height: 100%;
     margin-right: 1%;

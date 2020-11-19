@@ -8,7 +8,7 @@ const PokemonsList = ({pokemons}) => {
             <Header/>
             <div className='centralizer'>
                 <ul>
-                    <List />
+                    <List pokemons={pokemons}/>
                 </ul>
             </div>
         </div>
