@@ -10,7 +10,7 @@ export default function List({ pokemons }) {
                                 <h2> {pokemons.name} </h2>
                             </div>
                             <div className='pokemon'>
-                                <img src={pokemons.image_url} alt=''></img>
+                                <img src={pokemons.image_url} alt='imagem do pokemon'></img>
                             </div>
                         </div>
                     </li>
