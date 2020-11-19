@@ -15,6 +15,8 @@ E utilização de UX e UI para uma melhor experiência.
 ![base que será montada o projeto](./wireframes/Pokedex.png)
 `WireFrame em desenvolvimento`
 
+![base que será montada o projeto](./wireframes/pokedexv0.5.png)
+`WireFrame em desenvolvimento`
 
 ## Available Scripts
 
