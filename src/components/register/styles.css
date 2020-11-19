@@ -91,3 +91,7 @@ form{
 .register:hover {
     box-shadow: 0 0 40px 40px #F2F2F2 inset;
 }
+#contained-modal-title-vcenter {
+    display: flex;
+    justify-content: space-between;
+}

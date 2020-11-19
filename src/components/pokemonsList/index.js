@@ -1,10 +1,11 @@
+
+import Header from '../header';
 import './styles.css';
 import List from '../list';
-import '../../pages/pokemons';
-const PokemonsList = () => {
-    // console.log()
+const PokemonsList = ({pokemons}) => {
     return (
         <div className='container'>
+            <Header/>
             <div className='centralizer'>
                 <ul>
                     <List />

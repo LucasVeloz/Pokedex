@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './components/header';
-import Footer from './components/footer';
-import PokemonsList from './components/pokemonsList';
+import Pokemons from './pages/pokemons';
+// import { Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
 
     <div>
-      <Header/>
-      <PokemonsList/>
-      <Footer/>
+      {/* <Router>
+        <Route path="/" exact> */}
+          <Pokemons/>
+        {/* </Route>
+      </Router> */}
     </div>
   );
 }

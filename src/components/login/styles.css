@@ -89,3 +89,7 @@ form{
 .login:hover {
     box-shadow: 0 0 40px 40px #BF1725 inset;
 }
+#contained-modal-title-vcenter {
+    display: flex;
+    justify-content: space-between;
+}
