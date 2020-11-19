@@ -6,6 +6,9 @@ const PokemonsList = ({pokemons}) => {
     return (
         <div className='container'>
             <Header/>
+            <form>
+                <input type='text'></input>
+            </form>
             <div className='centralizer'>
                 <ul>
                         <List pokemons={pokemons}/>

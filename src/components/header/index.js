@@ -16,8 +16,8 @@ const Header = () => {
                 </Router>
             </h3>
             <div className='aux'>
-                    <Register/>
-                    <Login/>
+                <Register/>
+                <Login/>
             </div>
         </div>
     );
