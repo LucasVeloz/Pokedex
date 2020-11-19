@@ -1,6 +1,6 @@
 ## Projeto React de Pokedex Trainee CJR 2020/2
 
-`Deploy em:` [netlify](https://lveloz.netlify.app/)
+`Deploy rodando no link: [clique aqui](https://lveloz.netlify.app/)`
 
 
 Até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
