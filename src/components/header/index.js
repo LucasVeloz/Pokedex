@@ -4,7 +4,6 @@ import {
     // Route,
     Link
 } from "react-router-dom";
-// import Register from '../register';
 import './styles.css';
 import Login from '../login';
 import Register from '../register';
