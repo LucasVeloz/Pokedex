@@ -33,4 +33,5 @@ input {
     font-family: 'PokemonSolid';
     font-size: 3em;
     text-align: center;
+    border: 5px solid #BF1725;
 }
