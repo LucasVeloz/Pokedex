@@ -1,0 +1,19 @@
+li {
+    margin-bottom: 1%;
+}
+.box {
+    width: 300px;
+    height: 320px;
+
+    border: 3px solid #BF1725;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.pokemon {
+    justify-content: center;
+}

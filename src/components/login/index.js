@@ -1,6 +1,6 @@
 import './styles.css';
 import React from 'react';
-import { Modal, Button, render } from 'react-bootstrap';
+import { Modal, Button} from 'react-bootstrap';
 // import {
 //     BrowserRouter as Router,
 //     Switch,

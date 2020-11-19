@@ -1,0 +1,17 @@
+.container {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.centralizer {
+    width: 90%;
+    height: 100%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
