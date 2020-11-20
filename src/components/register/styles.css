@@ -31,12 +31,10 @@
     align-items: center;
 }
 h3 {
-    margin-top: 30px;
     font-family: 'PokemonHollow';
     font-size: 2.5em;
-    margin-left: 20px;
     color: white;
-
+    
 }
 form{
     width: 100%;
@@ -96,4 +94,16 @@ form{
 #contained-modal-title-vcenter {
     display: flex;
     justify-content: space-between;
+}
+.close {
+    height: 30px;
+    margin-right: 50px;
+}
+.modal-header {
+    height: 60px;
+}
+#contained-modal-title-vcenter {
+    height: 100%;
+    /* margin-top: 30px;
+    margin-left: 20px; */
 }

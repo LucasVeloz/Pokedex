@@ -21,8 +21,7 @@ export default function Pokemons ({page}) {
         let promises = [];
         for (let i = 1; i < 33; i++) {
             promises.push(
-                axios.get(`https://pokedex20201.herokuapp.com/pokemons?page=` + i).then(response => {
-                // do something with response
+                axios.get('https://pokedex20201.herokuapp.com/pokemons?page=' + i).then(response => {
                 let resposta = response.data.data;
                 total = total.concat(resposta);
                 

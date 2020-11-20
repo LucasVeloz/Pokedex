@@ -21,7 +21,7 @@ import { Modal, Button } from 'react-bootstrap';
       <Modal.Header >
         <Modal.Title id="contained-modal-title-vcenter">
           <h3>Register</h3>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button className='close' onClick={props.onHide}>Close</Button>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
