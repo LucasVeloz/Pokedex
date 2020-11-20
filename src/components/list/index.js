@@ -28,10 +28,12 @@ export default function List({ pokemons }) {
                 </Modal.Header>
                 <Modal.Body>
                     <img src={pokemon.pokemon.image_url} alt='imagem do pokemon'></img>
-                    <h5>{pokemon.pokemon.number}</h5>
-                    <h5>{pokemon.pokemon.weight}</h5>
-                    <h5>{pokemon.pokemon.height}</h5>
-                    <h5>{pokemon.pokemon.kind}</h5>
+                    <div className='infos'>
+                        <h5>#{pokemon.pokemon.number}</h5>
+                        <h5>Weight: {pokemon.pokemon.weight}kg</h5>
+                        <h5>Height: {pokemon.pokemon.height}m</h5>
+                        <h5>Kind: {pokemon.pokemon.kind}</h5>
+                    </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
