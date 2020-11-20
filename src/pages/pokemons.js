@@ -17,7 +17,7 @@ export default function Pokemons ({page}) {
     // }
     useEffect ( () => {
                 
-        var total = [];
+        let total = [];
         let promises = [];
         for (let i = 1; i <= 33; i++) {
             promises.push(
