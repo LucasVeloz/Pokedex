@@ -59,7 +59,7 @@ img {
     cursor: pointer;
     width: 90%;
     border: 3px solid #BF1725;
-    opacity: 85%;
+    opacity: 82%;
 }
 .modal-content {
     width: 50%;
@@ -102,4 +102,7 @@ img {
     font-family: 'MonumentExtended';
     font-size: 20px;
     -webkit-text-stroke-width: 1.5px;
+}
+button {
+    outline: none;
 }
