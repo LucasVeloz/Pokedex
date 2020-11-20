@@ -17,9 +17,9 @@ export default function Pokemons ({page}) {
     // }
     useEffect ( () => {
                 
-        let total = [];
+        var total = [];
         let promises = [];
-        for (let i = 1; i < 33; i++) {
+        for (let i = 1; i <= 33; i++) {
             promises.push(
                 axios.get('https://pokedex20201.herokuapp.com/pokemons?page=' + i).then(response => {
                 let resposta = response.data.data;
