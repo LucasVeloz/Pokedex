@@ -1,6 +1,6 @@
 import './App.css';
 import Pokemons from './pages/pokemons';
-// import { Router, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,7 +8,10 @@ function App() {
     <div>
       {/* <Router>
         <Route path="/" exact> */}
+        <BrowserRouter>
           <Pokemons/>
+        </BrowserRouter>
+          
         {/* </Route> */}
         {/* <Route>
 

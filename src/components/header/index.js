@@ -1,5 +1,5 @@
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     // Switch,
     // Route,
     Link
@@ -11,9 +11,7 @@ const Header = () => {
     return (
         <div className="header">
             <h3>
-                <Router>
-                    <Link to='/' exact>POKEDEX</Link>
-                </Router>
+                <Link to='/' exact='true'>POKEDEX</Link>
             </h3>
             <div className='aux'>
                 <Register/>
