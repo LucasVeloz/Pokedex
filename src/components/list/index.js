@@ -31,7 +31,7 @@ export default function List({ pokemons }) {
                     <div className='infos'>
                         <h5>#{pokemon.pokemon.number}</h5>
                         <h5>Weight: {pokemon.pokemon.weight}kg</h5>
-                        <h5>Height: {pokemon.pokemon.height}m</h5>
+                        <h5>Height: {pokemon.pokemon.height}ft</h5>
                         <h5>Kind: {pokemon.pokemon.kind}</h5>
                     </div>
                 </Modal.Body>
