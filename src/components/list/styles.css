@@ -67,10 +67,21 @@ img {
 }
 .modal-title {
     width: 50%;
-    height: 100px;
+    height: 10px;
 }
 
 .modal-footer {
     display: flex;
     justify-content: center;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.modal-body img {
+    width: 200px;
+    height: 200px;
 }
