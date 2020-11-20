@@ -1,6 +1,6 @@
 import './App.css';
 import Pokemons from './pages/pokemons';
-// import { Router, Route, Switch } from 'react-router-dom';
+// import { Router, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -9,8 +9,11 @@ function App() {
       {/* <Router>
         <Route path="/" exact> */}
           <Pokemons/>
-        {/* </Route>
-      </Router> */}
+        {/* </Route> */}
+        {/* <Route>
+
+        </Route> */}
+      {/* </Router> */}
     </div>
   );
 }

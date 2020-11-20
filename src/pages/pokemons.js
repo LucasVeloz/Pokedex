@@ -8,7 +8,7 @@ export default function Pokemons ({page}) {
 
     useEffect( () => {
         axios
-            .get("https://pokedex20201.herokuapp.com/pokemons?page=all")
+            .get("https://pokedex20201.herokuapp.com/pokemons?page=1")
             .then((response) => response.data.data)
             .then((data) => setPokemons(data));
     },[]);
