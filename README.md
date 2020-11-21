@@ -22,6 +22,20 @@ E utilização de UX e UI para uma melhor experiência.
 ![base que será montada o projeto](./wireframes/pokedexV0.6.png)
 `WireFrame em desenvolvimento`
 
+![wireframe base](./wireframes/pokedexv1.0.png)
+`WireFrame base`
+
+![wireframe base](./wireframes/espec.png)
+`WireFrame base das especificações do pokemon`
+
+![wireframe base](./wireframes/register.png)
+`área de cadastramento de usuário`
+
+![wireframe base](./wireframes/login.png)
+`área de login`
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

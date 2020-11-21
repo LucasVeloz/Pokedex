@@ -6,7 +6,7 @@ const PokemonsList = ({ pokemons }) => {
 
     // document.queryselector("pesquisa").on("keyup", function () {
     //     var value = this.value().toLowerCase();
-    //     document.queryselector("ID_DA_DIV").filter(function () {
+    //     document.queryselector("container").filter(function () {
     //         this.toggle(this.text().toLowerCase().indexOf(value) > -1);
     //     });
     // });
