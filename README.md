@@ -21,7 +21,6 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 - [ ] Favoritos: um usuário autenticado deverá poder favoritar pokemons, e visualizar seus pokemons favoritados.
 
 
-a
 
 
 #### paleta de cores
