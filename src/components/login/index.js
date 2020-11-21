@@ -26,7 +26,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Header>
         <Modal.Body>
             <form>
-                <input type="text" className='text'></input>
+                <input type="text" className='text' ></input>
                 <input type="submit"  className='btn'></input>
             </form>
             {/* <Router>
@@ -41,8 +41,11 @@ function MyVerticallyCenteredModal(props) {
 }
 
 function Login() {
-const [modalShow, setModalShow] = React.useState(false);
 
+
+    const [modalShow, setModalShow] = React.useState(false);
+
+    
 return (
     <>
     <Button className='login' variant="primary" onClick={() => setModalShow(true)}>

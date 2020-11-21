@@ -57,9 +57,9 @@ img {
 
 .btn-espec {
     cursor: pointer;
+    opacity: 90%;
     width: 90%;
     border: 3px solid #BF1725;
-    opacity: 90%;
 }
 .modal-content {
     width: 50%;

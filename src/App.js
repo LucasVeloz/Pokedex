@@ -6,17 +6,10 @@ function App() {
   return (
 
     <div>
-      {/* <Router>
-        <Route path="/" exact> */}
         <BrowserRouter>
           <Pokemons/>
         </BrowserRouter>
           
-        {/* </Route> */}
-        {/* <Route>
-
-        </Route> */}
-      {/* </Router> */}
     </div>
   );
 }
