@@ -13,9 +13,9 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 
 - [x] Informações: o usuário deve ser capaz de visualizar as informações de um pokemon específico em uma visualização exclusiva (modal, página, etc.).
 
-- [] Autenticação: usando a API, um usuário deve ser capaz de se autenticar na aplicação.
+- [ ] Autenticação: usando a API, um usuário deve ser capaz de se autenticar na aplicação.
 
-- [] Favoritos: um usuário autenticado deverá poder favoritar pokemons, e visualizar seus pokemons favoritados.
+- [ ] Favoritos: um usuário autenticado deverá poder favoritar pokemons, e visualizar seus pokemons favoritados.
 
 ![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
 
