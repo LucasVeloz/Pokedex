@@ -22,7 +22,7 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 
 
 
-
+a
 #### paleta de cores
 ![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
 
