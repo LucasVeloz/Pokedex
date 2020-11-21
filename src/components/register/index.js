@@ -20,6 +20,7 @@ function MyVerticallyCenteredModal(props) {
         event.preventDefault();
 
         axios.post("https://pokedex20201.herokuapp.com/users", { username })
+        .then(response => response.data.token)
         .catch((error) => setError(error));
     };
 
