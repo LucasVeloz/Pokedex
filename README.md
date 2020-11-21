@@ -7,6 +7,9 @@ Até agora usando react padrão, porém pensando em usar pug e stylus para otimi
 
 É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...
 
+
+é um mini projetinho de trainee da CJR (empresa júnior da UnB), com intuito de consolidar conhecimento de react.
+
 ### Funcionalidades:
 
 - [x] Exploração: o usuário deve ser capaz de visualizar uma listagem de pokemons, que serão fornecidos por uma API.
