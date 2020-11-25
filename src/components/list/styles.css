@@ -6,6 +6,11 @@
 li {
     margin-bottom: 1%;
 }
+@media (max-width: 460px) {
+    li {
+        margin-bottom: 20px;
+    }
+}
 .box {
     width: 250px;
     height: 270px;
