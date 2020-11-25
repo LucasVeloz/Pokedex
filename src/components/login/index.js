@@ -3,31 +3,19 @@ import React from 'react';
 import { Modal, Button} from 'react-bootstrap';
 import { useState } from 'react';
 import axios from 'axios';
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-// } from "react-router-dom";
-
 
 function MyVerticallyCenteredModal(props) {
 
-    const [username, setUsername ] = useState(localStorage.getItem("username"));
+    const [error, setError] = useState();
+    const [username, setUsername ] = useState();
     const handleLogin = (event) => {
 
         event.preventDefault();
         localStorage.setItem("username",username);
         axios.get("https://pokedex20201.herokuapp.com/users/" + username )
-        // .then( (response) => {response.data})
-        .then((response) => {
-            if(response.status===200) {
-                
-                return response.data
-            } else {
-                document.alert('usuário invalido');
-            }
-        })
+        .then(response => response.data)
+        .catch( error => setError(error));
+
     }
 
 
@@ -47,6 +35,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Header>
         <Modal.Body>
             <form onSubmit={handleLogin}>
+                {error && <p>tente outro username</p>}
                 <input type="text" 
                 className="text"
                 onChange={(e) => setUsername(e.target.value)}
