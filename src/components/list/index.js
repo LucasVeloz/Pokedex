@@ -1,4 +1,3 @@
-// import { Router, Link } from 'react-router-dom';
 import './styles.css';
 import { Modal, Button } from 'react-bootstrap';
 import { useState } from 'react';
@@ -15,7 +14,7 @@ export default function List({ pokemons }) {
             return (
             <>
                 <Button variant="primary" onClick={handleShow} className='btn-espec'>
-                Especificações
+                Specifications
                 </Button>
         
                 <Modal show={show} onHide={handleClose}>
@@ -48,27 +47,20 @@ export default function List({ pokemons }) {
     return (
         <>
             {pokemons && pokemons.map((pokemon) => (
-                // <Router>
-                //     <Link to={'/'}>
-                // <a href='/pokemons/'>
-
-                        <li key={pokemon.id}>
-                            <div className='box'>
-                                <div className='head'>
-                                    <h5>#{pokemon.number}</h5>
-                                    <h2> {pokemon.name} </h2>
-                                </div>
-                                <div className='pokemon'>
-                                    <img src={pokemon.image_url} alt='imagem do pokemon'></img>
-                                </div>
-                                    <PokemonEspec pokemon={pokemon} />
-                            </div>
-                        </li>
-                // </a>
-                //     </Link>
-                // </Router>
+        
+                <li key={pokemon.id}>
+                    <div className='box'>
+                        <div className='head'>
+                            <h5>#{pokemon.number}</h5>
+                            <h2> {pokemon.name} </h2>
+                        </div>
+                        <div className='pokemon'>
+                            <img src={pokemon.image_url} alt='imagem do pokemon'></img>
+                        </div>
+                            <PokemonEspec pokemon={pokemon} />
+                    </div>
+                </li>
             ))}
         </>
     );
 }
-                    

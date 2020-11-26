@@ -11,13 +11,15 @@ import { useState } from "react";
 // } from "react-router-dom";
 
 function MyVerticallyCenteredModal(props) {
-  
-  
-    const [username, setUsername] = useState();
+
+
+    const [username, setUsername] = useState(localStorage.getItem("username"));
     const [error, setError] = useState();
 
     const handleLogin = (event) => {
         event.preventDefault();
+
+        localStorage.setItem("username",username);
 
         axios.post("https://pokedex20201.herokuapp.com/users", { username })
         .then(response => response.data.token)
@@ -42,11 +44,10 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Header>
             <Modal.Body>
                 <form onSubmit={handleLogin}>
-                  {error && <p>tente outro username</p>}
+                    {error && <p>tente outro username</p>}
                     <input
                         type="text"
                         className="text"
-                        value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     ></input>
                     <input type="submit" className="btn-register"></input>

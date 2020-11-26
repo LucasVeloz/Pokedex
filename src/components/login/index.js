@@ -1,15 +1,24 @@
 import './styles.css';
 import React from 'react';
 import { Modal, Button} from 'react-bootstrap';
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-// } from "react-router-dom";
-
+import { useState } from 'react';
+import axios from 'axios';
 
 function MyVerticallyCenteredModal(props) {
+
+    const [error, setError] = useState();
+    const [username, setUsername ] = useState();
+    const handleLogin = (event) => {
+
+        event.preventDefault();
+        localStorage.setItem("username",username);
+        axios.get("https://pokedex20201.herokuapp.com/users/" + username )
+        .then(response => response.data)
+        .catch( error => setError(error));
+
+    }
+
+
     return (
         <Modal
         {...props}
@@ -25,8 +34,12 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <form>
-                <input type="text" className='text' ></input>
+            <form onSubmit={handleLogin}>
+                {error && <p>tente outro username</p>}
+                <input type="text" 
+                className="text"
+                onChange={(e) => setUsername(e.target.value)}
+                ></input>
                 <input type="submit"  className='btn'></input>
             </form>
             {/* <Router>

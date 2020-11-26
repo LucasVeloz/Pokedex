@@ -60,6 +60,7 @@ form{
     border-radius: 40px;
     font-family: 'PokemonSolid';
     font-size: 1em;
+    cursor: pointer;
 }
 .link {
     margin-bottom: 20px;
