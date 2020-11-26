@@ -1,25 +1,35 @@
 import Header from "../header";
 import "./styles.css";
 import List from "../list";
+import { useState } from "react";
 
 const PokemonsList = ({ pokemons }) => {
 
-    // document.queryselector("pesquisa").on("keyup", function () {
-    //     var value = this.value().toLowerCase();
-    //     document.queryselector("container").filter(function () {
-    //         this.toggle(this.text().toLowerCase().indexOf(value) > -1);
-    //     });
-    // });
+    const [search, setSearch ] = useState("");
+    // const [searchResult, setsearchResult] = useState([]);
+
+    const handleSearch = event => {
+
+        setSearch(event.target.value);
+    }
+    const filtered = pokemons.filter(pokemons => pokemons.name.includes(search));
 
     return (
         <div className="container">
             <Header />
             <form>
-                <input type="text" id='pesquisa'></input>
+                <input type="text" 
+                id='pesquisa'
+                placeholder='Search'
+                value={search}
+                onChange={handleSearch}
+                >
+                
+                </input>
             </form>
             <div className="centralizer">
                 <ul>
-                    <List pokemons={pokemons} />
+                        <List pokemons={filtered} />
                 </ul>
             </div>
         </div>
