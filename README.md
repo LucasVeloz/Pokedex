@@ -17,7 +17,13 @@
 - [ ] Favorite: Favorite a pokemon and view when authenticated on the plataform.
 
 
+## How to Install
 
+`
+    git clone (repo)
+    npm install
+    npm start
+`
 
 #### Color Palette
 ![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
