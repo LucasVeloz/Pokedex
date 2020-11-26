@@ -1,6 +1,7 @@
-## Project Pokedex CJR 2020/2 in React
+# Project Pokedex CJR 2020/2 in React
 
-`Aplicattion running:`[H E R E](https://lveloz.netlify.app/)
+
+#### project running [H E R E](https://lveloz.netlify.app/)
 
 
 
@@ -17,7 +18,25 @@
 - [ ] Favorite: Favorite a pokemon and view when authenticated on the plataform.
 
 
+## How to Run the project in your machine
 
+1° - clone the repo:
+
+`
+    git clone (repo)
+`
+
+2° - install dependencies:
+
+`
+    npm start
+`
+
+3° - run the project:
+
+`
+    npm start
+`
 
 #### Color Palette
 ![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
