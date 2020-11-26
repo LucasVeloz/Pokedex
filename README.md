@@ -1,6 +1,6 @@
-## Project Pokedex CJR 2020/2 in React
+# Project Pokedex CJR 2020/2 in React
 
-&copy reserved 
+
 #### project running [H E R E](https://lveloz.netlify.app/)
 
 
