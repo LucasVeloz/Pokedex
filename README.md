@@ -1,52 +1,48 @@
-## Projeto React de Pokedex Trainee CJR 2020/2
+## Project Pokedex CJR 2020/2 in React
 
-`Deploy rodando no link:` [clique aqui](https://lveloz.netlify.app/)
-
-
-Até agora usando react padrão, porém pensando em usar pug e stylus para otimizar a escrita do código.
-
-É um projeto responsivo e pensado. Há utilização de técnicas de Design como teoria das cores, cores complementares...
+`Aplicattion running:`[H E R E](https://lveloz.netlify.app/)
 
 
-é um mini projetinho de trainee da CJR (empresa júnior da UnB), com intuito de consolidar conhecimento de react.
 
-### Funcionalidades:
+### Functionalities:
 
-- [x] Exploração: o usuário deve ser capaz de visualizar uma listagem de pokemons, que serão fornecidos por uma API.
+- [x] Exploration: View all the Pokemons.
 
-- [x] Informações: o usuário deve ser capaz de visualizar as informações de um pokemon específico em uma visualização exclusiva (modal, página, etc.).
+- [x] Information: View the pokemon specifications. 
 
-- [ ] Autenticação: usando a API, um usuário deve ser capaz de se autenticar na aplicação.
+- [x] Search Bar: Possibility to search for a pokemon through the search bar.
 
-- [ ] Favoritos: um usuário autenticado deverá poder favoritar pokemons, e visualizar seus pokemons favoritados.
+- [ ] Authentication: Login in the plataform.
+
+- [ ] Favorite: Favorite a pokemon and view when authenticated on the plataform.
 
 
 
 
-#### paleta de cores
+#### Color Palette
 ![paleta de cores utilizada, título 152 Brazilian Artists Pokedex Project](./wireframes/paletadecores.jpeg)
 
-#### E utilização de UX e UI para uma melhor experiência.
+#### Using UX and UI for a better experience.
 
 
 ![base que será montada o projeto](./wireframes/Pokedex.png)
-`WireFrame em desenvolvimento`
+`WireFrame in development`
 
 ![base que será montada o projeto](./wireframes/pokedexv0.5.png)
-`WireFrame em desenvolvimento`
+`WireFrame in development`
 
 
 ![base que será montada o projeto](./wireframes/pokedexV0.6.png)
-`WireFrame em desenvolvimento`
+`WireFrame in development`
 
 ![wireframe base](./wireframes/pokedexv1.0.png)
 `WireFrame base`
 
 ![wireframe base](./wireframes/espec.png)
-`WireFrame base das especificações do pokemon`
+`WireFrame spec`
 
 ![wireframe base](./wireframes/register.png)
-`área de cadastramento de usuário`
+`Register Area`
 
 ![wireframe base](./wireframes/login.png)
-`área de login`
+`Login Area`
