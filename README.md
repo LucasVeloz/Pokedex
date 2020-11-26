@@ -19,9 +19,16 @@
 
 ## How to Install
 
+clone the repo:
 `
     git clone (repo)
-    npm install
+`
+install dependencies
+`
+    npm start
+`
+run the project
+`
     npm start
 `
 
