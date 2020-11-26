@@ -1,6 +1,6 @@
 ## Project Pokedex CJR 2020/2 in React
 
-`Aplicattion running:`[H E R E](https://lveloz.netlify.app/)
+#### project running [H E R E](https://lveloz.netlify.app/)
 
 
 
