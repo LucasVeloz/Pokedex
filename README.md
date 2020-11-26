@@ -1,5 +1,6 @@
 ## Project Pokedex CJR 2020/2 in React
 
+&copy reserved 
 #### project running [H E R E](https://lveloz.netlify.app/)
 
 
@@ -17,21 +18,21 @@
 - [ ] Favorite: Favorite a pokemon and view when authenticated on the plataform.
 
 
-## How to Install
+## How to Run the project in your machine
 
-clone the repo:
+1° - clone the repo:
 
 `
     git clone (repo)
 `
 
-install dependencies:
+2° - install dependencies:
 
 `
     npm start
 `
 
-run the project:
+3° - run the project:
 
 `
     npm start
